@@ -1,0 +1,19 @@
+{
+  "name": "sanmu-pixi-js",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "一个基于 Pixi.js v8 的空项目模板",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "pixi.js": "^8.6.6"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2",
+    "vite": "^6.0.5"
+  }
+}

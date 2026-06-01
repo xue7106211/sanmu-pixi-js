@@ -65,5 +65,6 @@ export class LoadingScene extends Container {
 
     this.bar.setProgress(this.progress);
     this.loadingLabel.update(deltaTime);
+    this.star.update(deltaTime); // 驱动星星的随机眨眼动画
   }
 }
